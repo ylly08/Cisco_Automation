@@ -4,6 +4,7 @@ from PyQt5 import uic
 from ciscoaxl import axl
 import sys
 
+
 '''
 cucm = cucm
 username = 'ciscoaxl'
@@ -20,13 +21,15 @@ class UI(QMainWindow):
     def __init__(self):
         super(UI, self).__init__()
         self.ui = uic.loadUi("mainwindow.ui",self)
-        self.button = self.findChild(QPushButton, "login")
-        self.button.clicked.connect(self.PressButtonWrite)
+        self.login = self.findChild(QPushButton, "login")
+        self.login.clicked.connect(self._login)
         self.exit_in_menu = self.findChild(QAction, "action_exit")
         self.exit_in_menu.triggered.connect(self._exit)
+        self.exit = self.findChild(QPushButton, "exit")
+        self.exit.clicked.connect(self._exit)
         #self.menuBar
 
-    def PressButtonWrite(self):
+    def _login(self):
         dia = Dialog()
 
     def _exit(self):

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CUCM_Connected</class>
+ <widget class="QWidget" name="CUCM_Connected">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>786</width>
+    <height>428</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(54, 54, 54);
+alternate-background-color: rgb(255, 255, 0);
+selection-background-color: rgb(85, 170, 255);
+color: rgb(255, 255, 255);</string>
+  </property>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
