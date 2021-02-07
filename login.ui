@@ -31,7 +31,7 @@ color: rgb(255, 255, 255);
       </widget>
      </item>
      <item row="4" column="0">
-      <widget class="QComboBox" name="cucm_version">
+      <widget class="QComboBox" name="version_b">
        <item>
         <property name="text">
          <string/>
@@ -60,7 +60,7 @@ color: rgb(255, 255, 255);
       </widget>
      </item>
      <item row="7" column="1">
-      <widget class="QLineEdit" name="cucm_ip"/>
+      <widget class="QLineEdit" name="ip_line"/>
      </item>
      <item row="8" column="0">
       <widget class="QLabel" name="label_2">
@@ -70,7 +70,7 @@ color: rgb(255, 255, 255);
       </widget>
      </item>
      <item row="8" column="1">
-      <widget class="QLineEdit" name="username"/>
+      <widget class="QLineEdit" name="user_line"/>
      </item>
      <item row="9" column="0">
       <widget class="QLabel" name="label_3">
@@ -80,7 +80,7 @@ color: rgb(255, 255, 255);
       </widget>
      </item>
      <item row="9" column="1">
-      <widget class="QLineEdit" name="pwd">
+      <widget class="QLineEdit" name="pwd_line">
        <property name="echoMode">
         <enum>QLineEdit::Password</enum>
        </property>
@@ -101,17 +101,20 @@ color: rgb(255, 255, 255);
        <property name="value">
         <number>0</number>
        </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
       </widget>
      </item>
      <item row="11" column="0" colspan="2">
-      <widget class="QPushButton" name="connect">
+      <widget class="QPushButton" name="connect_b">
        <property name="text">
         <string>Connect</string>
        </property>
       </widget>
      </item>
      <item row="12" column="0" colspan="2">
-      <widget class="QPushButton" name="quit">
+      <widget class="QPushButton" name="cancel_b">
        <property name="text">
         <string>Cancel</string>
        </property>
